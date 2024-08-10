@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
 //这是一个简单的合同，你可以获取、增加和减少存储在合同中的计数。

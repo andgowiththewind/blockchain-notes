@@ -10,9 +10,9 @@ contract Primitives {
     uint256 public u256 = 456; // 无符号 256 位整数
     uint256 public u = 123; // 无符号整数，默认为 uint256
     // `int` 类型允许负数。
-    int8 public i8 = - 1; // 有符号 8 位整数
+    int8 public i8 = -1; // 有符号 8 位整数
     int256 public i256 = 456; // 有符号 256 位整数
-    int256 public i = - 123; // 有符号整数，默认为 int256
+    int256 public i = -123; // 有符号整数，默认为 int256
     // 最大最小值
     int256 public minInt = type(int256).min;
     int256 public maxInt = type(int256).max;
@@ -23,8 +23,8 @@ contract Primitives {
     - 固定大小的字节数组
     - 动态大小的字节数组
     术语 `bytes` 在 Solidity 中表示动态字节数组，它是 `byte[]` 的简写。*/
-    bytes1 a = 0xb5;// 1 字节
-    bytes2 b = 0x56;// 2 字节
+    bytes1 a = 0xb5; // 1 字节
+    bytes2 b = 0x56; // 2 字节
 
     // 未赋值的变量具有默认值。
     bool public defaultBoo; // 默认为 false
