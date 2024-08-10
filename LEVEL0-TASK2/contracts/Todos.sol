@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
+//import "./StructDeclaration.sol";
+
 /*你可以通过创建 `struct` 定义自己的类型。
 `struct` 用于将相关数据组合在一起。
 `struct` 可以在合约外部声明，并在其他合约中导入。*/
