@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "testSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "total",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/SumUtilsTests.sol": "SumUtilsTests"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SumUtils.sol": {
+			"keccak256": "0x7cae4a632772449421713e6837de370efb8f9070022e634e7078489e1b97eda2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://beb17bec553e8156a8821573b3da2ffb8052281dac1269e6a6e21a3584fcb615",
+				"dweb:/ipfs/QmS7mB5uX17a4aphtRpMin6wdq5LGdjseTKPv3EGERSmEe"
+			]
+		},
+		"tests/SumUtilsTests.sol": {
+			"keccak256": "0x2d0b8e3e51a87bb8a324d5cfd48f3f4ffc2cebc18ca75726e079793959e50b1e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://71854593443cf1cfebf7ab98f6294414dc425dc07b151cae11d1692fcde1ee8d",
+				"dweb:/ipfs/QmfBEpy1kYKSWo9Ej7QoisLqnzpjb6hX6xEReMhQPV4VSn"
+			]
+		}
+	},
+	"version": 1
+}
