@@ -43,4 +43,10 @@ contract Savings {
         // 触发事件
         emit Withdrawal(_to, _amount);
     }
+
+    // 查看余额
+    function getBalance() external view returns (uint) {
+        // address(this) 表示合约的地址
+        return address(this).balance;
+    }
 }
