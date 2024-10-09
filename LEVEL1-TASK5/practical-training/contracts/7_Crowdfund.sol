@@ -44,6 +44,7 @@ contract Crowdfund {
             funderExistMap[msg.sender] = true;
             funderList.push(msg.sender);
         }
+        // 如果不简写：funderMap[msg.sender] = funderMap[msg.sender] + actualAmount;
         funderMap[msg.sender] += actualAmount;
 
         // 更新当前金额
