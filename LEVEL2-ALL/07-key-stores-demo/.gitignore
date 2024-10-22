@@ -1,0 +1,27 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build/test tool
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (those managed by Go modules)
+vendor/
+
+# Go workspace file and folders
+go.work
+go.work.sum
+
+# Package objects
+*.a
+
+# Directories to ignore
+/tmp/
+/*.tmp
+/pkg/
+/bin/
